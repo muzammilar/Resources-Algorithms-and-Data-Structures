@@ -1,12 +1,11 @@
-# Resources-Algorithms-and-Data-Structures
-A reference to compilations of open-source implementations of algorithms and datastructures
+# Resources
+A reference to compilations of various open-source implementations.
 
-## Algorithms
-* https://github.com/Thuva4/Algorithms
-* https://github.com/williamfiset/Algorithms
+#### [Algorithms and Data Structures](algorithms-and-data-structures/README.md)
 
-## Data Structures
-* https://github.com/williamfiset/Algorithms
+#### [Operating Systems](operating-systems/README.md)
+#### [Distributed Systems](distributed-systems/README.md)
+
 
 
 ----
