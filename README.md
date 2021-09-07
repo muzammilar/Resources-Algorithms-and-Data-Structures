@@ -1,10 +1,15 @@
 # Resources
-A reference to compilations of various open-source implementations.
+A reference to compilations of various open-source implementations and learning resources.
 
 #### [Algorithms and Data Structures](algorithms-and-data-structures/)
+#### [Distributed Systems](distributed-systems/)
+
+#### [Interview Prep & Practice](interviews/)
 
 #### [Operating Systems](operating-systems/)
-#### [Distributed Systems](distributed-systems/)
+
+#### [Programming Languages](languages/)
+
 
 
 
