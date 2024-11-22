@@ -8,5 +8,4 @@ A reference to compilations of open-source implementations of algorithms and dat
 ## Data Structures
 * https://github.com/williamfiset/Algorithms
 
-
 ----
