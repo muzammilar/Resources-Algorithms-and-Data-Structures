@@ -7,6 +7,7 @@ A list of resources to prepare for interviews.
 * https://www.interviewbit.com/
 * https://www.hackerrank.com
 * https://leetcode.com
+    * https://leetcode.com/studyplan/leetcode-75/
 * https://codegym.cc
 * http://highscalability.com/
 
