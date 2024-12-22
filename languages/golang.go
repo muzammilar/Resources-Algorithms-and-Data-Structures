@@ -48,3 +48,19 @@ func dateParser() {
 	// format the date
 	time.Format(dateFmt, t)
 }
+
+
+func stringCleanup(s string) string {
+	// Step 1: Trim leading and trailing spaces, then split by whitespace
+	words := strings.Fields(s)
+
+	// Step 2: Join words with a single space
+	return strings.Join(words, " ")
+}
+
+
+// max integer value
+func getMaxInt() int {
+	_ := int(^uint(0)>>1)
+	return math.MaxInt32
+}

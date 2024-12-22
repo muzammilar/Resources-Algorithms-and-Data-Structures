@@ -4,6 +4,7 @@
 * https://github.com/kamyu104/LeetCode-Solutions/
 * https://leetcode.ca/all/problems.html
 * https://github.com/neetcode-gh/leetcode
+* ChatGPT has good solutions to these problems as well
 
 
 #### Note
