@@ -17,6 +17,6 @@ class Solution:
                 left += 1
 
             # Calculate the maximum length of window with at most 'k' zeros
-            max_length = max(max_length, right - left + 1)
+            max_length = max(max_length, right - left + 1) # Add +1 since we include both elements
 
         return max_length

@@ -18,12 +18,7 @@ func longestSubarray(nums []int) int {
 		}
 
 		// Calculate the maximum length of subarray with at most one '0'
-		maxLength = max(maxLength, right-left+1)
-	}
-
-	// If the entire array consists of 1's, return length-1 (since one element must be deleted)
-	if maxLength == len(nums) {
-		return maxLength - 1
+		maxLength = max(maxLength, right-left) // Update maxLength - we don't add +1 here since the window is already shrunk
 	}
 
 	return maxLength
