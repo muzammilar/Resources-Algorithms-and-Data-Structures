@@ -1,10 +1,10 @@
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+package main
+
+// Definition for singly-linked list.
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
 
 func getListLen(head *ListNode) int {
 	length := 0

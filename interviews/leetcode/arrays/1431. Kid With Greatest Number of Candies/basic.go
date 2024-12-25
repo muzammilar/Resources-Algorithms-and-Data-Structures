@@ -1,3 +1,5 @@
+package main
+
 func kidsWithCandies(candies []int, extraCandies int) []bool {
 	// find the total number of candies
 	maxCandies := maxVal(candies)

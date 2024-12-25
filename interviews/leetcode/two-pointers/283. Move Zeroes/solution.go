@@ -1,3 +1,4 @@
+package main
 
 func moveZeroes(nums []int) {
 	// Pointer to track the position of the next non-zero element

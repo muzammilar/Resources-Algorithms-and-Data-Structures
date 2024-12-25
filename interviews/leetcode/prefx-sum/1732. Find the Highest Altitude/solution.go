@@ -1,3 +1,5 @@
+package main
+
 func largestAltitude(gain []int) int {
 	maxAltitude := 0
 	currentAltitude := 0

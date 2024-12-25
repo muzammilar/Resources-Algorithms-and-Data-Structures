@@ -1,3 +1,4 @@
+package main
 
 func increasingTriplet(nums []int) bool {
 	first, second := int(^uint(0)>>1), int(^uint(0)>>1) // Initialize to maximum integer value

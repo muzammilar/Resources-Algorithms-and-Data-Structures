@@ -1,3 +1,5 @@
+package main
+
 func findDifference(nums1 []int, nums2 []int) [][]int {
 	set1 := make(map[int]struct{})
 	set2 := make(map[int]struct{})

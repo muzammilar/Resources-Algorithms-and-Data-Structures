@@ -1,3 +1,4 @@
+package main
 
 func maxArea(height []int) int {
 	// initialize two pointers at the start and end of the array

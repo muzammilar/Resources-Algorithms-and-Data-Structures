@@ -1,3 +1,4 @@
+package main
 
 func longestOnes(nums []int, k int) int {
 	left := 0

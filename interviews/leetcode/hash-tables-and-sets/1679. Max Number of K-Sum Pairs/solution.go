@@ -1,3 +1,5 @@
+package main
+
 func maxOperations(nums []int, k int) int {
 	freq := make(map[int]int)
 	pairs := 0

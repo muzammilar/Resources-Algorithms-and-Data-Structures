@@ -1,3 +1,6 @@
+package main
+
+import "strings"
 
 func reverseVowels(s string) string {
 	// Convert string to a slice for easier manipulation

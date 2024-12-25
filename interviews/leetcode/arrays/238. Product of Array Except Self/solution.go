@@ -1,3 +1,4 @@
+package main
 
 func productExceptSelf(nums []int) []int {
 	n := len(nums)

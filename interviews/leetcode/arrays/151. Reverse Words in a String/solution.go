@@ -1,3 +1,7 @@
+package main
+
+import "strings"
+
 func reverseWords(s string) string {
 	// Step 1: Trim leading and trailing spaces, then split by whitespace
 	words := strings.Fields(s)

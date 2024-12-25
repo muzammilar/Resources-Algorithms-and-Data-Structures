@@ -1,3 +1,4 @@
+package main
 
 func isSubsequence(s string, t string) bool {
 	i, j := 0, 0

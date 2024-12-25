@@ -1,3 +1,5 @@
+package main
+
 func pivotIndex(nums []int) int {
 	totalSum := 0
 	leftSum := 0

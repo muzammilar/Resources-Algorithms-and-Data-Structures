@@ -1,3 +1,5 @@
+package main
+
 func equalPairs(grid [][]int) int {
 	n := len(grid)
 	count := 0

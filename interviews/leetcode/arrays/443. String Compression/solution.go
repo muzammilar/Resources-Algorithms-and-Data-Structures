@@ -1,3 +1,7 @@
+package main
+
+import "strconv"
+
 func compress(chars []byte) int {
 	n := len(chars)
 	if n == 0 {
