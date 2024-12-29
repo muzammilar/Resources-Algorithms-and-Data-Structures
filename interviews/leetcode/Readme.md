@@ -24,4 +24,9 @@ echo "### $DIR_NAME" > "$DIR_NAME/readme.md"
 touch "$DIR_NAME/solution.go"
 touch "$DIR_NAME/solution.py"
 ```
-<!-- XYZ prbolem in golang and python along with problem statement. The main function should be commented by default. Python solution must be under a class Solution -->
+<!--
+XYZ prbolem in golang and python along with problem statement. Please add comments to the code.
+The main function should be commented out by default.
+Python solution must be under a class Solution. Golang solution should not have a Solution struct.
+Please print the problem statement, the explaination and complexity as markdown code (`.md`) format, as well.
+-->
