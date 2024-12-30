@@ -18,7 +18,10 @@
 #### Directory Creation
 
 ```sh
+# windows
 export DIR_NAME = "dir-name"
+# linux
+export DIR_NAME="dir-name"
 mkdir -p "$DIR_NAME"
 echo "### $DIR_NAME" > "$DIR_NAME/readme.md"
 touch "$DIR_NAME/solution.go"
