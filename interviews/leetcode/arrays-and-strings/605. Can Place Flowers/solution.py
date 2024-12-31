@@ -9,7 +9,7 @@
 # If traversal ends and n > 0, return false.
 
 class Solution:
-    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
+    def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
         count = 0  # To count the number of flowers that can be planted
         length = len(flowerbed)
 

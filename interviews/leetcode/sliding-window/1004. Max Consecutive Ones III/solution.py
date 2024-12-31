@@ -1,5 +1,5 @@
 class Solution:
-    def longestOnes(self, nums: List[int], k: int) -> int:
+    def longestOnes(self, nums: list[int], k: int) -> int:
         # keep two pointers with a dynamic sliding window
         left = 0
         max_length = 0

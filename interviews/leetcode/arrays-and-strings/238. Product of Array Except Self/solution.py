@@ -1,5 +1,5 @@
 class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
+    def productExceptSelf(self, nums: list[int]) -> list[int]:
 
         # since the number itself can be zero, multiplying all and then division won't work here
         n = len(nums)

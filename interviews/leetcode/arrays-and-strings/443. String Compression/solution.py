@@ -1,5 +1,5 @@
 class Solution:
-    def compress(self, chars: List[str]) -> int:
+    def compress(self, chars: list[str]) -> int:
         write_index = 0  # Position to write compressed characters
         read_index = 0   # Pointer to traverse the array
         n = len(chars)

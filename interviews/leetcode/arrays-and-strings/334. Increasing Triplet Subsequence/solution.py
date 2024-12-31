@@ -1,5 +1,5 @@
 class Solution:
-    def increasingTriplet(self, nums: List[int]) -> bool:
+    def increasingTriplet(self, nums: list[int]) -> bool:
         first = float('inf')  # Initialize the first smallest element
         second = float('inf') # Initialize the second smallest element
 

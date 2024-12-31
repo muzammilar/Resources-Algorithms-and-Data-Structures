@@ -6,7 +6,7 @@ class TreeNode:
         self.right = right
 
 class Solution:
-    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+    def rightSideView(self, root: Optional[TreeNode]) -> list[int]:
         # If the root is None, return an empty list
         if not root:
             return []

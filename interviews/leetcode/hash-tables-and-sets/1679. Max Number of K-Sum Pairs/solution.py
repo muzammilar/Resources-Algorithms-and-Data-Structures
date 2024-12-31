@@ -1,7 +1,7 @@
 from collections import Counter
 
 class Solution:
-    def maxOperations(self, nums: List[int], k: int) -> int:
+    def maxOperations(self, nums: list[int], k: int) -> int:
         # Create a frequency counter for the elements in the array
         freq = Counter(nums)
         pairs = 0
