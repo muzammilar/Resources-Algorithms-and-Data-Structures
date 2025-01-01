@@ -31,9 +31,9 @@ touch "$DIR_NAME/solution.py"
 <!--
 XYZ prbolem in golang and python along with problem statement.
 
-Please add comments to the code.
+Please add extra comments to the code.
 
-The main function should be commented out by default.
+Please add a main function to run the code. The main function should be commented out by default.
 
 Python solution must be under a class Solution. Golang solution should not have a Solution struct.
 
