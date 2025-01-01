@@ -1,5 +1,10 @@
 # LeetCode
 
+#### Directories
+
+* `leetcode-75`- The LeetCode/Blind 75 study plan, found here: https://leetcode.com/studyplan/leetcode-75/
+
+
 #### Solutions
 * https://github.com/kamyu104/LeetCode-Solutions/
 * https://leetcode.ca/all/problems.html
