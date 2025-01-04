@@ -1,6 +1,9 @@
 package main
 
-import "math"
+import (
+	"math"
+	"slices"
+)
 
 // Helper function to calculate the total hours needed at speed k
 func hoursNeeded(piles []int, k int) int {
@@ -13,12 +16,7 @@ func hoursNeeded(piles []int, k int) int {
 
 // Function to find the minimum eating speed k
 func minEatingSpeed(piles []int, h int) int {
-	left, right := 1, 0
-	for _, pile := range piles {
-		if pile > right {
-			right = pile
-		}
-	}
+	left, right := 1, slices.Max(piles)
 
 	// Binary search for the minimum speed k
 	for left < right {
