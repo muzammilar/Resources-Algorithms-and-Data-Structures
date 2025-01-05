@@ -23,9 +23,7 @@
 #### Directory Creation
 
 ```sh
-# windows
-export DIR_NAME = "dir-name"
-# linux
+# linux/wsl
 export DIR_NAME="dir-name"
 mkdir -p "$DIR_NAME"
 echo "### $DIR_NAME" > "$DIR_NAME/readme.md"
@@ -40,7 +38,9 @@ Please add extra comments to the code.
 
 Please add a main function to run the code. The main function should be commented out by default.
 
-Python solution must be under a class Solution. Golang solution should not have a Solution struct.
+Python solution must be under a class Solution and type hinting must be used along with a main function.
+
+Golang solution should not have a Solution struct.
 
 Please print the problem statement, the approach, time complexity and space complexity as raw markdown code.
 -->
