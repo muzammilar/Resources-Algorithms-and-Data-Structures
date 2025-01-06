@@ -17,7 +17,7 @@ class Solution:
                 if word1[i - 1] == word2[j - 1]:
                     dpCurr[j] = dpPrev[j - 1]  # no operation needed
                 else:
-                    dpCurr[j] = min(dpPrev[j - 1], min(dpPrev[j], dpCurr[j - 1])) + 1
+                    dpCurr[j] = min(dpPrev[j-1], dpPrev[j], dpCurr[j-1]) + 1
 
             # Swap the current and previous rows
             dpPrev, dpCurr = dpCurr, dpPrev
