@@ -1,6 +1,13 @@
 # Interview Prep & Practice
 A list of resources to prepare for interviews.
 
+## Job Search Engines
+* https://hiring.cafe/
+* https://www.refereeai.us/
+* LinkedIn
+* https://www.workatastartup.com (Y-Combinator/Startup)
+
+
 ## Top Things to Review
 * Coding
   * Leetcode Blind 75: https://leetcode.com/studyplan/leetcode-75/
